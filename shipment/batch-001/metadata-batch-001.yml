@@ -1,0 +1,7 @@
+ready_for_processing: yes 
+shipping_date: 20230515
+arrival_date:
+shipper:
+receiver:
+comment:
+status: manual / test / processing / done
