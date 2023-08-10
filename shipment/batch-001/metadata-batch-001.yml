@@ -1,4 +1,5 @@
-ready_for_processing: yes 
+ready_for_processing: yes
+production_deployment: false
 shipping_date: 20230515
 arrival_date:
 shipper:
