@@ -10,9 +10,5 @@ jobs:
         env:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
-          DROPBOX_PRO: "<production_url>"
-          DROPBOX_DEV: "https://wwwdev.ebi.ac.uk/ena/submit/drop-box/submit/"
-          QUERY_PRO: "https://www.ebi.ac.uk/ena/portal/api/search?result=sample&query=(sample_alias={alias})"
-          QUERY_DEV: "https://wwwdev.ebi.ac.uk/ena/portal/api/search?result=sample&query=(sample_alias={alias})"
       - name: git-auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v4
