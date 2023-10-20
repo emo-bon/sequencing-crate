@@ -1,0 +1,8 @@
+ready_for_processing: yes
+production_deployment: false
+shipping_date: 20231017
+arrival_date: 20231017
+shipper: EMBRC
+receiver: Genoscope
+comment:
+status: manual / test / processing / done
